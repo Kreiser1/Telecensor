@@ -14,7 +14,7 @@ class Logger(ExceptionHandler):
 		print(exception)
 		return True
 
-bot = TeleBot('7600666100:AAGWWL34hzd8gvg0zRpVVx3y9SHZtG8da84', exception_handler=Logger())
+bot = TeleBot('[KEY]', exception_handler=Logger())
 client = Client()
 translator = Translator()
 
@@ -24,7 +24,7 @@ set_event_loop(loop)
 description = '''
 Telecensor
 
-Universal bot for filtering and censoring Telegram chats.
+Universal bot for filtering and moderating Telegram chats.
 
 Developers:
 
